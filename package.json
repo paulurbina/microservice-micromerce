@@ -1,0 +1,23 @@
+{
+  "name": "Product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservices",
+    "products"
+  ],
+  "author": "Paul Urbina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "seneca": "^3.13.3",
+    "seneca-mongo-store": "^1.4.1",
+    "type-is": "^1.6.18"
+  }
+}
